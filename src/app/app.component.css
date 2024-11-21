@@ -1,0 +1,48 @@
+.outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    border-color: black;
+    border-style: double;
+    border-width: 2px;
+    width: 18rem;
+    
+    
+}
+
+.whiteKeys {
+    position: relative;
+    display: flex;
+
+    div {
+        background-color:rgb(191, 207, 207);
+        height: 5rem;
+        width: 2rem;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 2%;
+    }
+}
+
+.blackKeys {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 1.5rem;
+    width: 15rem;
+    div {
+        background-color: black;
+        border-radius: 10%;
+        border-color: white;
+        border-style: solid;
+        border-width: 2px;
+        height: 2.5rem;
+        width: 1.5rem;
+    }
+}   

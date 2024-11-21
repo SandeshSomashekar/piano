@@ -1,6 +1,6 @@
 # Piano
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+Simple PIANO UI program that uses tone.js to invoke sounds. Needs angular cli installed to run the program.
 
 ## Development server
 

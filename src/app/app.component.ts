@@ -13,7 +13,7 @@ const wkeys = ['q','w','e','r','t', 'y', 'u', 'i'];
   styleUrl: './app.component.css'
 })
 export class AppComponent implements AfterViewInit{
-  title = 'stocks';
+  title = 'Piano';
   whiteKeys = ['C4', 'D4', 'E4', 'F4', 'G4', 'A4', 'B4', 'C5'];
   blackKeys = ['Db4', 'Eb4', 'Gb4', 'Ab4', 'Bb4'];
   wKeysHtml!: HTMLCollectionOf<Element>;
